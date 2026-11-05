@@ -1,8 +1,20 @@
+# Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+
+# Virtual environments
 .venv/
 venv/
-*.task
+
+# MediaPipe model (downloaded automatically on first run)
+hand_landmarker.task
+hand_landmarker.task.part
+
+# Tool caches
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
